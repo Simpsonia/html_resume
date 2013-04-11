@@ -115,9 +115,9 @@ br {
 
 a {
   font-size: 12px;
-  color: red;
-
+  color: #444;
 }
+
 a:hover {
   color: red;
 }
