@@ -1,0 +1,130 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+/*
+  Custom Styles
+*/
+
+body {
+  font-family: arial;
+  padding-top: 20px;
+  letter-spacing: 1px;
+  color: #444;
+}
+
+.page {
+  width: 960px;
+  margin: 0 auto;
+  padding: 25px;
+  overflow: auto;
+  background-color: white;
+  border: 5px solid #efefef;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  line-height: 30px;
+}
+
+p {
+  font-size: 12px;
+  line-height: 18px;
+  width: 870px;
+}
+
+p.agency {
+  font-weight: bold;
+  color: black;
+}
+
+p.title {
+  font-weight: bold;
+}
+
+ul {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+li {
+margin-left: 10px;
+}
+
+li.contact {
+  display: inline;
+  list-style-type: none;
+  margin-left: 0px;
+  margin-right: 15px;
+
+}
+
+br {
+  line-height: 18px;
+}
+
+a {
+  font-size: 12px;
+  color: red;
+
+}
+a:hover {
+  color: red;
+}
+
+
+
+
+
+
+
