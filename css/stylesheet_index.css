@@ -46,85 +46,83 @@ hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin:
 
 input, select { vertical-align: middle; }
 
-/*
-  Custom Styles
-*/
+
+/* Write your CSS styles here */
 
 body {
-  font-family: arial;
-  padding-top: 20px;
-  letter-spacing: 1px;
-  color: #444;
-}
-
+font-family: sans-serif;
+  background-color: #616D7E;
+ }
 .page {
   width: 960px;
   margin: 0 auto;
-  padding: 25px;
   overflow: auto;
   background-color: white;
-  border: 5px solid #efefef;
 }
-
+#illustration {
+  width: 163px;
+  height: 480px;
+  float: left;
+  margin: 40px 20px 0 70px;
+}
 h1 {
-  font-size: 30px;
-}
-
-h2 {
-  font-size: 18px;
-  margin-top: 20px;
-  margin-bottom: 5px;
+  float: left;
+  margin: 110px 0 0 0;
+  color: #616D7E;
+  font-size: 24px;
   line-height: 30px;
+  text-align: left;
+  width: 200px;
 }
 
-p {
-  font-size: 12px;
-  line-height: 18px;
-  width: 870px;
+ul{
+  float: left;
+  margin: 150px 0 0 90px;
+  font-size: 14px;
+  text-align: right;
 }
-
-p.agency {
-  font-weight: bold;
-  color: black;
-}
-
-p.title {
-  font-weight: bold;
-}
-
-ul {
-  font-size: 12px;
-  line-height: 18px;
-}
-
 li {
 margin-left: 10px;
+display: inline;
 }
 
-li.contact {
-  display: inline;
-  list-style-type: none;
-  margin-left: 0px;
-  margin-right: 15px;
-
+a:link {
+color: #616D7E;
+text-decoration:none;
 }
-
-br {
+a:hover {
+color: black;
+text-decoration:underline;
+}
+h2 {
+  float: left;
+  width: 620px;
+  color: #616D7E;
+  margin-top: 20px;
+  font-size: 12px;
   line-height: 18px;
 }
-
-a {
-  font-size: 12px;
-  color: #444;
+.thumbnails {
+float: left;
+margin: -250px 0 0 250px;
+width: 620px;
+height: 800px;
+background-color: yellow
 }
-
-a:hover {
-  color: red;
+img {
+float:left;
+margin-right: 20px;
+margin-bottom: 20px;
 }
+ul#contacts {
+  float: left;
+  margin: 0 0 0 20px;
+}
+li#info {
+ display: block;
+  text-align: left;
+  font-size: 10px;
+  line-height: 18px;
+  color: #616D7E;
 
-
-
-
-
-
-
+}
