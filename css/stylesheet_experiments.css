@@ -115,17 +115,11 @@ input, select { vertical-align: middle; }
 
 
 /** {
-   border: 1px solid red !important;
-}*/
+   border: 1px solid red !important;*/
 
 body {
-<<<<<<< HEAD
-font-family: 'Lato', sans-serif;
-=======
 font-family: 'Open Sans', sans-serif;
->>>>>>> master
   background-color: #616D7E;
-
  }
 
 #illustration {
@@ -133,31 +127,24 @@ font-family: 'Open Sans', sans-serif;
   margin: 40px 20px 0 0;
 }
 h1 {
-  font-family: 'Playfair Display', serif;
   float: left;
-<<<<<<< HEAD
-  margin: 98px 0 0 0;
-  color: black;
-  font-size: 30px;
-  line-height: 36px;
-=======
   margin: 110px 0 0 0;
   color: #616D7E;
   font-size: 26px;
   line-height: 30px;
->>>>>>> master
   text-align: left;
   font-family: 'Nixie One', cursive;
 
 }
+
 nav ul{
   float: right;
-  margin: 148px 0 0 0;
+  margin: 145px 0 0 0;
   text-align: right;
 }
 nav li {
 margin-left: 20px;
-font-size: 12px;
+font-size: 16px;
 display: inline;
 }
 
@@ -169,58 +156,13 @@ nav a:hover {
 color: black;
 text-decoration:underline;
 }
-
 h2 {
- font-family: 'Playfair Display', serif;
-font-size: 19px;
-  margin-top: 20px;
-  margin-bottom: 5px;
+  float: left;
+  color: #616D7E;
+  margin-top: 30px;
+  font-size: 18px;
   line-height: 30px;
-  color: #616D7E;
-<<<<<<< HEAD
-  letter-spacing: 1px;
-=======
-  font-family: 'Nixie One', cursive;
-
->>>>>>> master
 }
-
-p, li.for_resume {
-  font-size: 14px;
-  line-height: 20px;
-<<<<<<< HEAD
-  color: #616D7E;
-}
-
-p.agency, .title {
-=======
->>>>>>> master
-  color: black;
-  font-weight: 700;
-}
-
-<<<<<<< HEAD
-/*p.title {
-  font-weight: 700;
-}*/
-=======
-/*p.agency {
-  font-style: bold; 
-}*/
-
-p.title {
-  font-style: italic; 
-}
->>>>>>> master
-ul.skills {
-  margin: 0;
-  text-align: left;
-  margin-bottom: 20px;
-}
-li.for_resume {
-  margin-left: 15px;
-}
-
 ul#contacts {
   float: left;
   margin: 0 0 0 90px;
@@ -233,9 +175,28 @@ li#info {
   color: #616D7E;
   margin-left: 10px;
 }
-br {
-  line-height: 18px;
+img {
+  width: 100%;
 }
+.experiment {
+  background-color: fff9ad;
+  width:  700px;
+  height: 420px;
+}
+.bar {
+  width: 660px;
+  height: 80px;
+  background-color: 299ae6;
+}
+h3 {
+  font-size: 18px;
+  color: white;
+}
+h4 {
+  font-size: 16px;
+  color: white;
+}
+
 p#copyright {
   font-size: 12px;
   margin: 10px 69px 0 0;
@@ -246,10 +207,3 @@ footer {
   background-color: black;
   height: 40px;
 }
-
-
-
-
-
-
-

@@ -89,7 +89,23 @@ input, select { vertical-align: middle; }
 .container{
   width: 960px; 
   margin: 0 auto;
-  background-color: white;
+  background-color: /* IE10 Consumer Preview */ 
+  background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 90%, #00A3EF 100%);
+
+  /* Mozilla Firefox */ 
+  background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 90%, #00A3EF 100%);
+
+  /* Opera */ 
+  background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 90%, #00A3EF 100%);
+
+  /* Webkit (Safari/Chrome 10) */ 
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFFFFF), color-stop(0.9, #FFFFFF), color-stop(1, #00A3EF));
+
+  /* Webkit (Chrome 11+) */ 
+  background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 90%, #00A3EF 100%);
+
+  /* W3C Markup, IE10 Release Preview */ 
+  background-image: linear-gradient(to top, #FFFFFF 0%, #FFFFFF 90%, #00A3EF 100%);
 }
 
 .clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}
@@ -98,7 +114,11 @@ input, select { vertical-align: middle; }
 /* Write your CSS styles here */
 
 body {
+<<<<<<< HEAD
 font-family: 'Lato', sans-serif;
+=======
+font-family: 'open sans', sans serif;
+>>>>>>> master
   background-color: #616D7E;
  }
 
@@ -107,13 +127,22 @@ font-family: 'Lato', sans-serif;
   margin: 40px 20px 0 0;
 }
 h1 {
+<<<<<<< HEAD
   font-family: 'Playfair Display', serif;
   float: left;
   margin: 98px 0 0 0;
   color: black;
   font-size: 30px;
   line-height: 36px;
+=======
+float: left;
+  margin: 110px 0 20px; 0;
+  color: #616D7E;
+  font-size: 26px;
+  line-height: 30px;
+>>>>>>> master
   text-align: left;
+  font-family: 'Nixie One', cursive;
 }
 
 
@@ -124,7 +153,7 @@ nav ul{
 }
 nav li {
 margin-left: 20px;
-font-size: 16px;
+font-size: 12px;
 display: inline;
 }
 
@@ -137,14 +166,32 @@ color: black;
 text-decoration:underline;
 }
 .post {
+<<<<<<< HEAD
 margin: 20px, 0, 20px;
+=======
+background-color: #e9e9e9;
+border-radius: 5px;
+padding: 20px;
+width: 616px;
+  margin: 5px 12px 5px 0;
+  float: left;
+  display: block;
+>>>>>>> master
 }
+.post_white {
+  background-color: white;
+  }
+
 h2 {
   font-family: 'Playfair Display';
   color: #616D7E;
   font-size: 18px;
   line-height: 18px;
+<<<<<<< HEAD
   margin-top: 40px
+=======
+  margin-top: 5px
+>>>>>>> master
 }
 h3 {
   font-size: 14px;
@@ -158,12 +205,13 @@ p {
   color: #616D7E;
   font-size: 14px;
   line-height: 18px;
-  margin: 20px 0;
+  margin-top: 20px;
 }
 
 ul#contacts {
   float: left;
   margin: 0 0 0 90px;
+  height: 400px;
 }
 li#info {
  display: block;
