@@ -1,0 +1,152 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+/*
+ * CSS Calendar
+ * Steph Simpson
+ -----------------------------*/
+
+body {
+	font-size:20px; 
+	font-family:Arial, Verdana, Helvetica, sans-serif;
+	background-color: #fff9ad;
+	text-align: center;
+	}
+/*body * {display:inline;}*/
+
+.container {
+	width: 707px;
+	height: 656px;
+	margin: 10px auto;
+	border-radius: 10px;
+	background-color: white;
+}
+.month	{	
+	width: 707px;
+	height: 100px;
+}
+.back {
+	width:100px;
+	height:100px;
+	float: left;
+	border-right:1px solid #ccc;
+	border-top-left-radius: 10px;
+	background: #38adfb url('../images/Back_arrow.png') 50px 50% no-repeat;
+
+
+}
+.forward {
+	width:100px;
+	height:100px;
+	float: right;
+	border-left:1px solid #ccc;
+	border-top-right-radius: 10px;
+	background: #38adfb url('../images/forward_arrow.png') 50px 50% no-repeat;
+
+}
+/*.arrow-right {
+	width: 0; 
+	height: 0; 
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	
+	border-left: 5px red;
+}
+
+.arrow-left {
+	width: 0; 
+	height: 0; 
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent; 
+	
+	border-right:5px red; 
+}*/
+h1  {
+	text-align:center;
+	line-height: 100px;
+/*	display:block;
+*/	background-color: #38adfb;
+	font-size: 24px;
+	color:	white;
+	height: 100px;
+	width: 505px;
+	float: left;
+}
+
+li  {
+	list-style:none;
+}
+
+li li  {
+	width:100px;
+	height:100px;
+	float:left;
+	border-right:1px solid #ccc;
+	border-top: 1px solid #ccc;
+	color: #666;
+	line-height: 100px;
+}
+.omega {
+		border-right:0px;
+}
+
+li.days {
+	width: 101px;
+	height: 50px;
+	display: inline;
+	border-right:0px;
+	background-color: #f2f2f2;
+	line-height: 50px;
+
+}
+
+
+li.lastmonth {
+	border-right:1px solid #ccc;
+	border-top: 1px solid #ccc;
+	color: #d3d3d3;
+}
