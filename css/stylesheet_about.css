@@ -119,11 +119,8 @@ input, select { vertical-align: middle; }
 }*/
 
 body {
-<<<<<<< HEAD
 font-family: 'Lato', sans-serif;
-=======
 font-family: 'Open Sans', sans-serif;
->>>>>>> master
   background-color: #616D7E;
 
  }
@@ -135,17 +132,14 @@ font-family: 'Open Sans', sans-serif;
 h1 {
   font-family: 'Playfair Display', serif;
   float: left;
-<<<<<<< HEAD
   margin: 98px 0 0 0;
   color: black;
   font-size: 30px;
   line-height: 36px;
-=======
   margin: 110px 0 0 0;
   color: #616D7E;
   font-size: 26px;
   line-height: 30px;
->>>>>>> master
   text-align: left;
   font-family: 'Nixie One', cursive;
 
@@ -177,33 +171,24 @@ font-size: 19px;
   margin-bottom: 5px;
   line-height: 30px;
   color: #616D7E;
-<<<<<<< HEAD
   letter-spacing: 1px;
-=======
   font-family: 'Nixie One', cursive;
-
->>>>>>> master
 }
 
 p, li.for_resume {
   font-size: 14px;
   line-height: 20px;
-<<<<<<< HEAD
   color: #616D7E;
 }
 
 p.agency, .title {
-=======
->>>>>>> master
   color: black;
   font-weight: 700;
 }
 
-<<<<<<< HEAD
 /*p.title {
   font-weight: 700;
 }*/
-=======
 /*p.agency {
   font-style: bold; 
 }*/
@@ -211,7 +196,7 @@ p.agency, .title {
 p.title {
   font-style: italic; 
 }
->>>>>>> master
+
 ul.skills {
   margin: 0;
   text-align: left;

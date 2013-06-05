@@ -120,11 +120,11 @@ input, select { vertical-align: middle; }
 
 
 body {
-<<<<<<< HEAD
+
 font-family: 'Lato', sans-serif;
-=======
+
 font-family: 'Open Sans', sans-serif;
->>>>>>> master
+
   background-color: #616D7E;
  }
 
@@ -135,17 +135,14 @@ font-family: 'Open Sans', sans-serif;
 h1 {
   font-family: 'Playfair Display', serif;
   float: left;
-<<<<<<< HEAD
   margin: 98px 0 0 0;
   color: black;
   font-size: 30px;
   line-height: 36px;
-=======
   margin: 110px 0 0 0;
   color: #616D7E;
   font-size: 26px;
   line-height: 30px;
->>>>>>> master
   text-align: left;
   font-family: 'Nixie One', cursive;
 

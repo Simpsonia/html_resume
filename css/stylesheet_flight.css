@@ -1,0 +1,124 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}
+
+
+/*My styles
+*/
+body {
+	background-color: #fff9ad;
+	}
+.container {
+	width: 760px;
+	background-color: white;
+	margin: 0 auto;
+}
+span {
+	display:block;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: sans-serif;
+}
+th, td {
+border: 1px solid #c6c9cc;
+  vertical-align: top;
+  padding: 30px;
+}
+td.flight {
+	width: 100px;
+}
+td.american {
+	background: url('AmericanLOGO.png') 20px 20px no-repeat;
+}
+td.delta {
+	background: url('DeltaLogo.png') 20px 20px no-repeat;
+}
+th {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background: #31a4f1;
+}
+.number, .time {
+	color: #444444;
+	font-weight: bold;
+	font-size: 16px;
+}
+.number	{
+	padding-left: 70px;
+}
+.modal {
+	color: #999999;
+	font-weight: normal;
+	font-size: 12px;
+}
+.City {
+	color: #268bcf;
+	font-size: 18px;
+}
+
+.ontime {
+	color: #78b742;
+}
+.delay {
+	color: #ebc636;
+}
+.cancel {
+	color: #e1413f;
+}
+.ontime, .delay, .cancel {
+	margin-top: 5px;
+}
+
+
+
+
+
